@@ -1,0 +1,1 @@
+static_files/nboat2/Nboat_II_CAD_files.zip filter=lfs diff=lfs merge=lfs -text
