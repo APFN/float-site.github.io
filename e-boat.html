@@ -91,7 +91,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>e-boat</h2>
+          <h2>e-boat </h2>
           <ol>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#projects">Projects</a></li>
@@ -102,21 +102,77 @@
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Blog Section ======= -->
-    <section class="inner-page">
-      <div class="container" data-aos="fade-up">
+   <!-- ======= Blog Section ======= -->
+   <section class="inner-page">
+    <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-          <h2>N-boat I</h2>
-          <p>Example inner page template</p>
-        </div>
-
-        <p>
-          You can duplicate this page and create any number of pages you like!
-        </p>
-
+      <div class="section-header">
+        <!-- <h2>N-boat I</h2> -->
+        <img src="static_files/e-boat/gazebo.png" class="img-fluid animated"   height="500">
       </div>
-    </section><!-- End Inner Page -->
+
+      
+      <p>Due to the complexity and the amount of man-hours required to carry out field tests, the team developed a simulator for the N-boat/F-boat. The idea was to create a digital twin, so that all tests conducted in the virtual world could be replicated in practice.</p> 
+      <p>The simulator, named YARA, was created using ROS (Robot Operating System) as the robotic operating system and Gazebo as the virtual simulation environment.</p>
+      <p>Thanks to this new environment, it was possible to start control tests using artificial intelligence, specifically reinforcement learning techniques (PPO). This allowed the sailboat to learn specialized behaviors for each situation.</p>
+      <p>Given that the F-boat has an electric outboard motor, various behaviors were created which utilize this feature extensively (consuming a lot of battery) to behaviors that do not use any electric propulsion (using only the wind as a means of locomotion). These specialized behaviors allow the sailboat to adapt to various conditions, consolidating itself as a more generalized multi-mission platform. </p>
+      <p>Here are the videos of the simulator: </p>    
+
+      
+    
+      <p>Simulator demonstration:</p>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe height="500" width="800" class="embed-responsive-item" src="https://www.youtube.com/embed/5iGRARpwtAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+
+      <p>Training(PPO) demonstration:</p>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe height="500" width="800" class="embed-responsive-item" src="https://www.youtube.com/embed/znu9WKzHVx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+
+      <p>Track mission demonstration:</p>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe height="500" width="800" class="embed-responsive-item" src="https://www.youtube.com/embed/-SgI0IaOIMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+
+      <p>Perimeter coverage mission demonstration:</p>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe height="500" width="800" class="embed-responsive-item" src="https://www.youtube.com/embed/Z8BRiMi8qko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+
+      <p>Complete videos playlist:</p>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe height="500" width="800" class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLc74ZZYHXPStMrxG05dgop4sa1NBl4Uyp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+
+      
+      <p>Source code repositories:</p>
+      <a href="https://github.com/medialab-fboat/Yara_OVE" target="_blank">YARA Ocean Virtual Environment Github.</a>
+      <br>
+      <a href="static_files/e-boat/Yara_OVE-main.zip" target="_blank">YARA Ocean Virtual Environment ZIP.</a>
+      <br>
+      <a href="https://github.com/APFN/eboat" target="_blank">Yara simulator with ia saling behaviors Github.</a>
+      <br>      
+      <a href="static_files/e-boat/eboat-master.zip" target="_blank">Yara simulator with ia saling behaviors ZIP.</a>
+      <br>
+
+    </div>
+  </section><!-- End Inner Page -->
 
   </main><!-- End #main -->
 
